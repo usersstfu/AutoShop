@@ -1,0 +1,80 @@
+
+.atas {
+    float : left;
+  }
+
+table {
+
+border-collapse: collapse;
+font-size: 14pt;
+border: 2px solid black;
+
+
+}
+th {
+    background-color: steelblue;
+    color: white;
+
+}
+
+.menu {
+    font-family:tahoma;
+    font-weight: bold;
+    height: 90px;
+    width: 100%;
+    background:lightblue;
+    border-radius: 1px;
+    font-size: 18px;
+}
+
+.menu h1 {
+    font-family: times new roman;
+    font-size: 20pt;
+    color: red;
+    margin:10px;
+    padding:5px;
+    float: left;
+}
+.isi h1 {
+    text-align: center;
+}
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    display: block;
+    float:right;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: royalblue;
+}
+ 
+.menu ul li a:hover {
+    display: block;
+    color :lightslategray;
+    
+}
+
+.menu ul li .dropdown {
+    display: none;  
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: lightblue;
+    position: absolute;
+    padding: 8px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+
+}
